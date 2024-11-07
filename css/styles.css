@@ -5992,13 +5992,24 @@ img {
   height: auto;
 }
 
+/* ----------------------------------------------------------------- BODY --------------------------------------------------------------------------------------------------------- */
+
+span {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
 body {
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   line-height: 45px;
-  font-size: 13px;
-  font-family: Poppins, Helvetica, sans-serif;
+  font-size: 15px;
+  font-family: "Arial", system-ui;
   color: #ffffff;
 }
+
+
 
 @-moz-keyframes fixedmenu {
   0% {
@@ -6022,7 +6033,7 @@ body {
 }
 @media (min-width: 992px) {
   .header-area.header-default {
-    min-height: 233px;
+    min-height: 90px;
   }
 }
 .header-area .header-main-sticky.fixed-header {
@@ -9124,13 +9135,14 @@ body {
 
 div[class*=box] {
   height: 33.33%;
-  width: 15%; 
+  width: 13%; 
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.box-3 { background-color: #b99135; }
+.box-3 { background-color: #212529; }
+.box-3 { font-size: 10px; }
 
 .btn {
   line-height: 50px;
