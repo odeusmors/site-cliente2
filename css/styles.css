@@ -9124,13 +9124,13 @@ body {
 
 div[class*=box] {
   height: 33.33%;
-  width: 100%; 
+  width: 15%; 
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.box-3 { background-color: #66A182; }
+.box-3 { background-color: #b99135; }
 
 .btn {
   line-height: 50px;
